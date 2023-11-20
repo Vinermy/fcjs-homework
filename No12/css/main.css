@@ -1,0 +1,41 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.gradient1 {
+    background: linear-gradient(135deg, #007acc, #059c00);
+}
+
+.gradient2 {
+    background: linear-gradient(45deg, #ff6b6b, #ff00bf);
+}
+
+.custom-button {
+    font-size: 18px;
+    padding: 15px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#switch {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+#paragraph {
+    display: none;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+#first, #second {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
